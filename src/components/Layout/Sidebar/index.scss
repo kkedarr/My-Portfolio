@@ -177,6 +177,8 @@
             margin: 0;
             z-index: 2;
             position: fixed;
+            animation: fadeIn 0.5s;
+            animation-fill-mode: forwards;
 
             &.mobile-show {
                 display: block;

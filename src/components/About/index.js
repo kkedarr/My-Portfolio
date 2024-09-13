@@ -29,14 +29,15 @@ const About = () => {
                         />
                     </h1>
                     <p>
-                        Hi there! I’m Omokayode Charles, a  Frontend Developer with in-depth knowledge of JavaScript, ReactJS, and basic Python as that is what I started my coding journey with. Now, I specialize in creating dynamic, responsive websites with a focus on performance and user experience. My skill set spans across modern web technologies, allowing me to bring innovative solutions to life, whether through interactive UI components or logic.
+                        Hi there! I’m Omokayode Charles Omodara, a Frontend Developer with expertise in JavaScript, ReactJS, and basic Python, which marked the beginning of my coding journey. I hold a degree in Industrial Mathematics, which sharpened my analytical and problem-solving skills, enabling me to tackle web development challenges with precision and logic.
                     </p>
                     <p>
-                        With a strong problem-solving  mindset and clean code practices, I continuously push the boundaries of what’s possible in web development. I thrive in collaborative environments and enjoy taking on challenges that require creative, efficient solutions.
+                        I specialize in building dynamic, responsive websites with a keen focus on performance and user experience. Whether it's crafting interactive UI components or writing optimized, clean code, I strive to deliver innovative solutions using modern web technologies.
                     </p>
                     <p>
-                        Curious about the rest of my tech stack? Head over to the Stack section for a detailed list of the tools and frameworks I’m familiar with!
+                        I thrive in collaborative environments, always seeking creative and efficient ways to solve complex problems. From my experience analyzing supply chain logistics at Fan Milk PLC to completing numerous frontend development projects, I continuously push the boundaries of what's possible in web development.
                     </p>
+                    <p>Curious about the work I’ve done? Head over to the Projects section to explore some of my recent work!</p>
 
 
                 </div>
