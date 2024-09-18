@@ -41,6 +41,8 @@ const Projects = () => {
         <>
             <div className='project-section' id='projects'>
                 <div className='container'>
+
+                    <h1 style={{ marginLeft: '70px', color: 'red', fontSize: '40px', fontWeight: '700' }}>Oops...this page is still under construction! Can you check back in a couple of hours? I appreciate your patience. </h1>
                     <h1 className='-projects-header'>
                         <AnimatedLetters
                             letterClass={letterClass}
