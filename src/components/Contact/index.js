@@ -25,7 +25,7 @@ const Contact = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setLetterClass('text-animate-hover');
-        }, 3000);
+        }, 4000);
 
         return () => clearTimeout(timer);
     }, []);
@@ -125,7 +125,7 @@ const Contact = () => {
                     <br />
                     Lagos
                     <br />
-                    P.S. Don't forget to stop by to experience the greatness of a Frontend Engineer - the best in the universe!
+                    P.S. Don't forget to stop by to experience the greatness of a Frontend Developer
                     <br />
                     <span>omodaraomokayode@gmail.com</span>
                 </div>
