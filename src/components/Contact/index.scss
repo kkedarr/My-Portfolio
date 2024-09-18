@@ -113,11 +113,39 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .contact-form {
+        font-family: 'Helvetica';
+
+        .flat-button {
+            color: #D8F5FD;
+            background: 0 0;
+            font: 4px;
+            letter-spacing: 2px;
+            text-decoration: none;
+            padding: 8px 8px;
+            border: 1px solid #D8F5FD;
+            float: right;
+            font-family: 'Helvetica';
+        }
+    }
+
+
     .map-wrap {
         float: none;
         margin: 0;
         width: 100%;
         height: 400px;
+        margin-top: -185px;
+    }
+
+    .leaflet-container {
+        width: 90%;
+        height: 90%;
+        opacity: 0;
+        margin-top: 350px;
+        margin-left: 19px;
+        animation: backInRight 1s 1.2s;
+        animation-fill-mode: forwards;
     }
 
     .info-map {
@@ -125,10 +153,10 @@
         top: 50px;
         right: 0;
         width: 150px;
-        padding: 20px;
-        margin-top: 740px;
-        margin-left: 20px;
-        margin-right: 167px;
+        padding: 7px;
+        margin-top: 668px;
+        margin-left: 110px;
+        margin-right: 145px;
         color: #fff;
         font-family: 'Helvetica';
         font-size: 10px;
@@ -140,7 +168,7 @@
         span {
             font-size: 10px;
             display: block;
-            padding-top: 10px;
+            padding-top: 5px;
             color: #61DAFB;
         }
     }

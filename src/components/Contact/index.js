@@ -25,7 +25,7 @@ const Contact = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setLetterClass('text-animate-hover');
-        }, 4000);
+        }, 3000);
 
         return () => clearTimeout(timer);
     }, []);
@@ -121,11 +121,9 @@ const Contact = () => {
                     <br />
                     Astro Apartment 5-11, Starry Way
                     <br />
-                    Planetary District, Andromeda Galaxy
+                    Planetary District, Andromeda
                     <br />
                     Lagos
-                    <br />
-                    P.S. Don't forget to stop by to experience the greatness of a Frontend Developer
                     <br />
                     <span>omodaraomokayode@gmail.com</span>
                 </div>
