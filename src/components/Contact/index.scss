@@ -1,7 +1,7 @@
 .contact-form {
     width: 100%;
     margin-top: 20px;
-    font-family: 'Helvetica';
+    font-family: Helvetica, sans-serif !important;
 
     ul {
         padding: 0;
@@ -41,9 +41,14 @@
         background: #61DAFB;
         height: 50px;
         font-style: 18px;
+        font-family: Helvetica, sans-serif !important;
         color: #FFF;
         padding: 0 20px;
         box-sizing: border-box;
+
+        &::placeholder {
+            color: #023D4F;
+        }
     }
 
     textarea {
@@ -56,18 +61,22 @@
         padding: 20px;
         min-height: 150px;
         box-sizing: border-box;
+        font-family: Helvetica, sans-serif !important;
+
+        &::placeholder {
+            color: #023D4F;
+        }
     }
 
     .flat-button {
         color: #D8F5FD;
         background: 0 0;
-        font: 8px;
-        letter-spacing: 3px;
+        font-size: 8px;
+        letter-spacing: 2px;
         text-decoration: none;
         padding: 8px 8px;
         border: 1px solid #D8F5FD;
-        float: right;
-        font-family: 'Helvetica';
+        font-family: Helvetica, sans-serif !important;
     }
 }
 
@@ -115,18 +124,16 @@
 @media screen and (max-width: 1200px) {
     .contact-form {
         font-family: 'Helvetica';
+    }
 
-        .flat-button {
-            color: #D8F5FD;
-            background: 0 0;
-            font: 4px;
-            letter-spacing: 2px;
-            text-decoration: none;
-            padding: 8px 8px;
-            border: 1px solid #D8F5FD;
-            float: right;
-            font-family: 'Helvetica';
-        }
+
+    .flat-button {
+        float: right;
+    }
+
+    .flat-button:hover {
+        background-color: #61DAFB;
+        color: #023D4F;
     }
 
 

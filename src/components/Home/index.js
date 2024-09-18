@@ -56,7 +56,6 @@ const Home = () => {
                             idx={15}
                         />
                     </h1>
-                    <h2>... and Writer</h2>
                     <Link to="/contact" className="flat-button">CONTACT ME</Link>
                 </div>
                 <div className='stage-cube-cont'>

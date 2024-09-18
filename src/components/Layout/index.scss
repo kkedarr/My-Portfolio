@@ -135,7 +135,7 @@
 
         &.contact-page,
         &.about-page,
-        &.portfolio-page {
+        &.project-page {
             .text-zone {
                 position: initial;
                 transform: none;
@@ -146,7 +146,7 @@
             }
         }
 
-        &.portfolio-page {
+        &.project-page {
             width: 100%;
             padding: 20px;
             box-sizing: border-box;
